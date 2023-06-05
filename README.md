@@ -30,24 +30,24 @@ Then, run the server and take a screenshot of your book cover page.
             width: 500px;
             height: 700px;
             background-color:black;
-            color:white;
+            color:whitesmoke;
             margin-left: auto;
             margin-right: auto;
             padding: 20px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(/static/images/Martin.jpg);
+            background-image: url(/static/images/Cover2.jpg);
             background-size: cover;
         }
             
 
         .toptext{
-            color:white;
+            color:blue;
 
         }
 
         
         .tophr{
-            width:125px;
+            width:115px;
         }
         
         .author{
@@ -55,8 +55,8 @@ Then, run the server and take a screenshot of your book cover page.
             display: inline;
             position: relative;
             text-align: left;
-            color:white;
-            top:500px;
+            color:black;
+            top:428px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size: large;
         }
@@ -66,57 +66,46 @@ Then, run the server and take a screenshot of your book cover page.
             font-size: x-large;
             text-align: center;
             position: relative;
-            color:lightgreen;
-            top: 19px;
+            color:black;
+            top: 30px;
         
         }
         
         .edition{
-            color:orange;
+            color:blue;
             font-size: large;
             font-family: Arial, Helvetica, sans-serif;
             position:relative;
             text-align: left;
-            top:410px;
+            top:345px;
 
         }
-        
 
-        .text-container {
-             position: absolute;
-             top: 320px;
-             left: 50px; 
-             color: black;
-             font-size: x-large;
-             font-family: 'franklin gothic', sans-serif; 
+        .points{
+            color: black;
+            font-family:Tahoma;
+            font-size: large;
+            position: relative;
+            top:110px;
         }
-        
-        .text-containers {
-             position: absolute;
-             top: 360px;
-             left: 80px; 
-             color: black;
-             font-size: x-large;
-             font-family: 'franklin gothic', sans-serif; 
-        }
-        
-        .space {
-            color:orange;
+
+        .space{
+            color:rgb(255, 0, 0);
             font-size: large;
             font-family: Arial, Helvetica, sans-serif;
             position:relative;
             text-align: left;
-            top:380px;
-
-
+            top:332px;
         }
-        .text-containerss {
-             position: absolute;
-             top: 400px;
-             left: 115px; 
-             color: black;
-             font-size: x-large;
-             font-family: 'georgia', sans-serif; 
+
+        .photo
+        {
+            position: relative;
+            top: 173px;
+            left: 375px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
         }
 
         </style>
@@ -125,7 +114,7 @@ Then, run the server and take a screenshot of your book cover page.
     <body>
         <div class="bookpage">
             <div class="toptext" class>
-                Martin Scorsese
+                Cyber Security
             </div>
             
             <div class="tophr">
@@ -133,32 +122,19 @@ Then, run the server and take a screenshot of your book cover page.
             </div>
             
             <div class="booktitle">
-                <h2>"An Introduction to the Craft of the Director"</h2>
+                <h2>"Way to Secure your Data"</h2>
             </div>
                 
-            <div class="subtitle">
-             
-            </div>  
-            
-            
-            
-            <div class="text-container">
-                <p>  </p>
-            </div>
-            
-            <div class="text-containers">
-                <p>  </p> 
-            </div>
-            
-            <div class="text-containerss">
-                <p>  </p>                  
-            </div>
+            <div class="points">
+             &bull; Introduction to Cyber
+             <br>&bull; Cloud Security
+             <br>&bull; Public Wi-Fi
+             <br>&bull; Cryptography
+             <br>&bull; Network Security
+            </div> 
 
             <div class="author">
-               <p><b>Dr.Aakashraj</b></p>
-            </div>
-            <div class="publisher">
-                
+               <p><b>Aakashraj M (B.E)</p>
             </div>
             
             <div class="edition">
@@ -167,7 +143,11 @@ Then, run the server and take a screenshot of your book cover page.
             </div>
             
             <div class="space">
-                <b>_____________________________________________</b>
+                <hr style="color: red;">
+            </div>
+
+            <div class="photo">
+                <img src="/static/images/AR1.jpg" width="115" height="125" alt="">
             </div>
             
         </div>
@@ -178,7 +158,8 @@ Then, run the server and take a screenshot of your book cover page.
 
 ## Output:
 
-![Book cover page](https://github.com/Aakashraj04/cover-page-design/assets/121117266/88004344-f8c3-404c-8f9d-7af1c33a9423)
+![image](https://github.com/Aakashraj04/cover-page-design/assets/121117266/1556e019-5b67-4d85-853a-4d6a1dbdf26e)
+
 
 ## Server Output:
 ![serevr output 06](https://github.com/Aakashraj04/cover-page-design/assets/121117266/cf1fc104-1136-44f1-99cf-9e64035009a5)
